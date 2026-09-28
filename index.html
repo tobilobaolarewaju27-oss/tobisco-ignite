@@ -1,114 +1,535 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Tobisco Ignite</title>
+    <meta charset="UTF-8">
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #0f172a;
-            color: white;
-            line-height: 1.6;
-        }
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
 
-        header {
-            text-align: center;
-            padding: 60px 20px;
-            background: #1e293b;
-        }
+    <meta
+        name="description"
+        content="Tobisco ignite — the personal brand of Olarewaju Tobiloba Emmanuel, focused on communication, creativity, technology and impact."
+    >
 
-        h1 {
-            font-size: 42px;
-            margin-bottom: 10px;
-        }
+    <meta
+        name="author"
+        content="Olarewaju Tobiloba Emmanuel"
+    >
 
-        header p {
-            font-size: 18px;
-            color: #cbd5e1;
-        }
+    <meta
+        name="keywords"
+        content="Tobisco ignite, Olarewaju Tobiloba Emmanuel, motivational speaker, public relations, Mass Communication, digital creator, technology"
+    >
 
-        section {
-            max-width: 800px;
-            margin: auto;
-            padding: 40px 20px;
-        }
+    <meta name="theme-color" content="#080808">
 
-        h2 {
-            color: #38bdf8;
-            margin-bottom: 15px;
-        }
+    <title>
+        Tobisco ignite | Communication • Creativity • Technology • Impact
+    </title>
 
-        ul {
-            padding-left: 20px;
-        }
+    <link rel="stylesheet" href="style.css">
 
-        li {
-            margin: 10px 0;
-        }
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
 
-        .button {
-            display: inline-block;
-            margin-top: 20px;
-            padding: 12px 24px;
-            background: #38bdf8;
-            color: #0f172a;
-            text-decoration: none;
-            border-radius: 8px;
-            font-weight: bold;
-        }
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
 
-        footer {
-            text-align: center;
-            padding: 30px 20px;
-            background: #020617;
-            color: #94a3b8;
-        }
-    </style>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap"
+        rel="stylesheet"
+    >
 </head>
 
 <body>
 
-    <header>
-        <h1>Welcome to Tobisco Ignite 🚀</h1>
-        <p>Web development, technology, and IoT projects.</p>
-        <a class="button" href="#projects">Explore Projects</a>
+    <!-- ================= NAVIGATION ================= -->
+
+    <header class="navbar">
+
+        <a href="#home" class="logo">
+            Tobisco <span>ignite</span>
+        </a>
+
+        <nav id="navMenu">
+
+            <a href="#about">About</a>
+            <a href="#work">Work</a>
+            <a href="#vision">Vision</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+        <button
+            class="menu-btn"
+            id="menuBtn"
+            aria-label="Open navigation"
+        >
+            ☰
+        </button>
+
     </header>
 
-    <section id="projects">
-        <h2>What We Do</h2>
 
-        <ul>
-            <li>Web Development</li>
-            <li>Technology Projects</li>
-            <li>IoT Projects</li>
-        </ul>
-    </section>
+    <!-- ================= HERO ================= -->
 
-    <section>
-        <h2>Our Mission</h2>
+    <main>
 
-        <p>
-            Tobisco Ignite is focused on building useful technology
-            and digital solutions.
-        </p>
-    </section>
+        <section class="hero" id="home">
 
-    <section>
-        <h2>Get Started</h2>
+            <div class="hero-content">
 
-        <p>
-            Explore our projects and follow our journey as we build.
-        </p>
-    </section>
+                <p class="eyebrow">
+                    PERSONAL BRAND • TOBISCO IGNITE
+                </p>
 
-    <section id="contact">
-  <h2>Contact Us</h2>
-  <p>Email: tobiscoignite@gmail.com</p>
-  <p>Let's build useful technology together.</p>
-    </section>
-  <footer>      © 2026 Tobisco Ignite. All rights reserved.
+                <h1>
+                    Ideas become
+                    <span>possibility.</span>
+                </h1>
+
+                <p class="hero-description">
+
+                    I am <strong>Olarewaju Tobiloba Emmanuel</strong> —
+                    a creative communicator, motivational speaker,
+                    PR professional and emerging digital creator
+                    exploring the intersection of communication,
+                    creativity, technology and impact.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#work" class="btn btn-primary">
+                        Explore my work
+                    </a>
+
+                    <a href="#about" class="btn btn-secondary">
+                        Discover my story
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-mark">
+
+                <div class="ignite-orbit"></div>
+
+                <span>TI</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= INTRO STRIP ================= -->
+
+        <section class="statement">
+
+            <p>
+                <span>Communication.</span>
+                <span>Creativity.</span>
+                <span>Technology.</span>
+                <span>Impact.</span>
+            </p>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="section" id="about">
+
+            <div class="section-label">
+                01 — ABOUT
+            </div>
+
+            <div class="about-grid">
+
+                <div>
+
+                    <p class="section-kicker">
+                        THE PERSON BEHIND THE BRAND
+                    </p>
+
+                    <h2>
+                        More than a title.
+                        <em>A direction.</em>
+                    </h2>
+
+                </div>
+
+
+                <div class="about-text">
+
+                    <p>
+                        I am building a career around one simple
+                        idea: <strong>possibility begins with the
+                        way we think.</strong>
+                    </p>
+
+                    <p>
+                        My foundation is Mass Communication, with
+                        growing professional interests in Public
+                        Relations, reputation management, speaking,
+                        digital creation, technology and
+                        entrepreneurship.
+                    </p>
+
+                    <p>
+                        I enjoy taking ideas and asking a different
+                        question — not only “What is this?” but
+                        “What can this become?”
+                    </p>
+
+                    <p>
+                        That mindset is at the heart of
+                        <strong>Tobisco ignite.</strong>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= AREAS ================= -->
+
+        <section class="section dark-section">
+
+            <div class="section-label">
+                02 — WHAT I EXPLORE
+            </div>
+
+            <div class="areas-grid">
+
+                <article class="area-card">
+
+                    <span>01</span>
+
+                    <h3>
+                        Communication
+                    </h3>
+
+                    <p>
+                        Mass Communication, Public Relations,
+                        strategic messaging, media and reputation.
+                    </p>
+
+                </article>
+
+
+                <article class="area-card">
+
+                    <span>02</span>
+
+                    <h3>
+                        Speaking
+                    </h3>
+
+                    <p>
+                        Motivation, personal development,
+                        purpose, growth, discipline and leadership.
+                    </p>
+
+                </article>
+
+
+                <article class="area-card">
+
+                    <span>03</span>
+
+                    <h3>
+                        Digital Creation
+                    </h3>
+
+                    <p>
+                        Websites, digital experiences, content,
+                        creative projects and personal branding.
+                    </p>
+
+                </article>
+
+
+                <article class="area-card">
+
+                    <span>04</span>
+
+                    <h3>
+                        Technology
+                    </h3>
+
+                    <p>
+                        Web development, hardware, emerging
+                        technologies and practical digital solutions.
+                    </p>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= WORK ================= -->
+
+        <section class="section" id="work">
+
+            <div class="section-label">
+                03 — SELECTED DIRECTION
+            </div>
+
+            <div class="work-heading">
+
+                <h2>
+                    Building ideas
+                    <em>into reality.</em>
+                </h2>
+
+                <p>
+                    My portfolio is growing alongside my skills.
+                    These are the areas where I am developing,
+                    experimenting and creating.
+                </p>
+
+            </div>
+
+
+            <div class="projects">
+
+                <article class="project">
+
+                    <div class="project-number">
+                        01
+                    </div>
+
+                    <div>
+
+                        <p>COMMUNICATION</p>
+
+                        <h3>
+                            PR & Reputation
+                        </h3>
+
+                        <span>
+                            Public relations • publicity •
+                            strategic communication
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project">
+
+                    <div class="project-number">
+                        02
+                    </div>
+
+                    <div>
+
+                        <p>PERSONAL DEVELOPMENT</p>
+
+                        <h3>
+                            Tobisco ignite
+                        </h3>
+
+                        <span>
+                            Motivation • purpose • growth •
+                            possibility
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project">
+
+                    <div class="project-number">
+                        03
+                    </div>
+
+                    <div>
+
+                        <p>DIGITAL</p>
+
+                        <h3>
+                            Web & Digital Experiences
+                        </h3>
+
+                        <span>
+                            Websites • interfaces • digital products
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project">
+
+                    <div class="project-number">
+                        04
+                    </div>
+
+                    <div>
+
+                        <p>EMERGING TECHNOLOGY</p>
+
+                        <h3>
+                            Web + Hardware
+                        </h3>
+
+                        <span>
+                            Software • hardware • IoT • practical solutions
+                        </span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PHILOSOPHY ================= -->
+
+        <section class="philosophy">
+
+            <div class="philosophy-inner">
+
+                <p class="section-kicker">
+                    THE TOBISCO IGNITE PHILOSOPHY
+                </p>
+
+                <h2>
+                    Think differently.
+                    <br>
+                    <span>Build intentionally.</span>
+                    <br>
+                    Become more.
+                </h2>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= VISION ================= -->
+
+        <section class="section" id="vision">
+
+            <div class="section-label">
+                04 — VISION
+            </div>
+
+            <div class="vision-grid">
+
+                <div>
+
+                    <h2>
+                        From communication
+                        <em>to creation.</em>
+                    </h2>
+
+                </div>
+
+
+                <div>
+
+                    <p>
+                        The long-term vision is to combine
+                        communication, creativity and technology
+                        to create useful solutions for real people.
+                    </p>
+
+                    <p>
+                        That means continuing to grow as a
+                        communicator while developing the technical
+                        ability to design, build and eventually
+                        connect digital and physical solutions.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CTA ================= -->
+
+        <section class="contact" id="contact">
+
+            <div class="contact-inner">
+
+                <p class="section-kicker">
+                    LET'S CONNECT
+                </p>
+
+                <h2>
+                    Have an idea?
+                    <br>
+                    <span>Let's create something meaningful.</span>
+                </h2>
+
+                <a
+                    href="mailto:your-email@example.com"
+                    class="contact-button"
+                >
+                    Start a conversation →
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div>
+
+            <strong>
+                Tobisco ignite
+            </strong>
+
+            <p>
+                Communication • Creativity • Technology • Impact
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <p>
+                © <span id="year"></span>
+                Olarewaju Tobiloba Emmanuel
+            </p>
+
+        </div>
+
     </footer>
+
+
+    <script src="script.js"></script>
 
 </body>
 </html>
