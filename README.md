@@ -1,2 +1,9 @@
-# tobisco-ignite
-Tobisco Ignite — Web development, technology, and IoT projects.
+tobisco-ignite/
+│
+├── index.html
+├── style.css
+├── script.js
+├── README.md
+└── assets/
+    ├── profile.jpg
+    └── favicon.png
