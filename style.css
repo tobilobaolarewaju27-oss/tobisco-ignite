@@ -158,3 +158,27 @@ footer {
         padding: 30px;
     }
 }
+header {
+    position: relative;
+    background: #f8f7f3;
+}
+
+nav {
+    position: relative;
+    z-index: 10;
+}
+
+@media (max-width: 700px) {
+    header {
+        position: relative;
+    }
+
+    nav {
+        display: block;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 8px 12px 8px 0;
+    }
+}
